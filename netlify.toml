@@ -4,3 +4,10 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "/"
+  to = "/blocked.html"
+  status = 200
+  force = true
+  conditions = {Country = ["US"]}
